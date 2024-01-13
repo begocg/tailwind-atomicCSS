@@ -1,25 +1,18 @@
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .width-30vp {
-    width: 30vw;
-    height: auto;
-  }
-
-  .font-size-30 {
-    font-size: 30;
+  @apply flex justify-center items-center;
 }
+
+.font-size-30 {
+  font-size: 30px;
+}
+
 .font-size-25 {
-    font-size: 25;
+  font-size: 25px;
 }
 
 .m-20b {
   margin-bottom: 20px;
 }
-
 
 .tabla {
   @apply w-full flex justify-center;
@@ -28,16 +21,15 @@
 dl {
   @apply flex flex-wrap;
 
-  @screen md {
-    @apply border-t border-r border-primary;
-    @apply w-3/5;
+  @screen lg {
+    @apply border-t border-r border-primary w-3/5;
   }
 }
 
 dt {
   @apply font-bold underline;
 
-  @screen md {
+  @screen lg {
     @apply font-normal no-underline flex-grow-0 flex-shrink-0 w-1/5 py-2 px-4 bg-primary text-right text-white;
   }
 }
@@ -45,9 +37,7 @@ dt {
 dd {
   @apply m-0 py-0 px-1;
 
-  @screen md {
+  @screen lg {
     @apply w-4/5 py-2 px-4 border-b border-primary;
   }
 }
-
-  

@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>Golpe maestro</title>
-  </head>
-  <body class="ml-20 mr-20">
-    <include src="./views/header.html"></include>
-    <h1 class="text-center font-size-30">Acerca de Golpe maestro</h1>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>Golpe maestro</title>
+</head>
+
+<body class="ml-5 mr-5 lg:ml-20 lg:mr-20">
+  <include src="./views/header.html"></include>
+  <h1 class="text-center font-size-30">Acerca de Golpe maestro</h1>
   <p class="m-20b">
     Golpe Maestro es un club de tenis creado por un grupo de amigos apasionados por este deporte.
     Nuestra misión es promover la práctica del tenis en la comunidad y crear un espacio donde personas
     de todas las edades puedan disfrutar y aprender.
   </p>
   <div class="center m-20b">
-    <img src="assets/images/rafanadal.jpeg" alt="Rafa Nadal con las manos arriba celebrando una victoria" class="width-30vp">
+    <img class="w-full md:w-full lg:w-2/5" src="assets/images/rafanadal.jpeg"
+      alt="Rafa Nadal con las manos arriba celebrando una victoria" class="width-30vp">
   </div>
   <h2 class="text-center font-size-25">Actividades</h2>
   <p>Golpe maestro nace con muchas ganas de aportar a la comunidad todo lo que pueda. Por esta razón, hemos propuesto
     una
     serie de actividades que queremos llevar a cabo.</p>
-    <div class="tabla">
-      <dl>
-        <dt>Clases y talleres para todas las edades</dt>
-        <dd>Queremos dedicarnos a organizar talleres tanto para personas mayores como para niños, con el objetivo de compartir la pasión por el tenis y fomentar la actividad física en todas las edades.</dd>
-        <dt>Charlas motivacionales y de compañerismo</dt>
-        <dd>Nuestra misión va más allá de las líneas de la cancha. Realizamos charlas inspiradoras para fomentar el compañerismo y fortalecer los lazos entre los miembros del club. Creemos que el tenis no solo es un juego, sino una forma de unir a las personas y crear una comunidad sólida.</dd>
-        <dt>Liga de tenis para competir de manera amistosa</dt>
-        <dd>En nuestro club, también organizamos una liga de tenis entre nuestros miembros, brindando la oportunidad de participar en competiciones amistosas y fortalecer los lazos dentro de la comunidad de tenis.</dd>
-      </dl>
-    </div>
-    
-
-    
-
+  <div class="tabla">
+    <dl>
+      <dt>Clases y talleres para todas las edades</dt>
+      <dd>Queremos dedicarnos a organizar talleres tanto para personas mayores como para niños, con el objetivo de
+        compartir la pasión por el tenis y fomentar la actividad física en todas las edades.</dd>
+      <dt>Charlas motivacionales y de compañerismo</dt>
+      <dd>Nuestra misión va más allá de las líneas de la cancha. Realizamos charlas inspiradoras para fomentar el
+        compañerismo y fortalecer los lazos entre los miembros del club. Creemos que el tenis no solo es un juego, sino
+        una forma de unir a las personas y crear una comunidad sólida.</dd>
+      <dt>Liga de tenis para competir de manera amistosa</dt>
+      <dd>En nuestro club, también organizamos una liga de tenis entre nuestros miembros, brindando la oportunidad de
+        participar en competiciones amistosas y fortalecer los lazos dentro de la comunidad de tenis.</dd>
+    </dl>
+  </div>
   <blockquote class="blockquote p-8 relative">
     <p class="blockquote__p font-bold text-center text-3xl">
       El tenis es más que un deporte, es una escuela de vida.
     </p>
   </blockquote>
-  <figure class="center m-20b">
-    <div>
-    <img src="assets/images/compañerismo.jpg" alt="Naomi Osaka y Coco Gauff en el US Open de 2019 al terminar el partido" class="width-30vp">
-    <figcaption>
-        Naomi Osaka y Coco Gauf, un ejemplo a seguir en la cancha y en la vida.
-    </figcaption>
+  <div class="center">
+    <figure class="w-full md:w-4/5 lg:w-2/5">
+      <div>
+        <img src="assets/images/compañerismo.jpg"
+          alt="Naomi Osaka y Coco Gauff en el US Open de 2019 al terminar el partido" class="width-30vp">
+        <figcaption>
+          Naomi Osaka y Coco Gauf, un ejemplo a seguir en la cancha y en la vida.
+        </figcaption>
+      </div>
   </div>
-</figure>
+  </figure>
 
   <h2 class="text-center font-size-25">Unirse a Golpe maestro</h2>
   <p class="m-20b">
     Si compartes nuestra pasión por el tenis y deseas formar parte de una comunidad activa y acogedora,
     ¡únete a Golpe maestro! Estamos abiertos a personas de todas las edades y niveles de habilidad.</p>
   <div>
-      <include src="./views/button.html"></include>
+    <include src="./views/button.html"></include>
   </div>
-    <include src="./views/footer.html"></include>
-  </body>
+  <include src="./views/footer.html"></include>
+</body>
+
 </html>
